@@ -10,8 +10,8 @@
 #include "ConcreteProductA.h"
 #include "ConcreteProductB.h"
 
-Factory::Factory(){};
-Factory::~Factory(){};
+Factory::Factory(){}
+Factory::~Factory(){}
 
 Product* Factory::CreateProduct(std::string product_name)
 {
